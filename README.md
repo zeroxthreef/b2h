@@ -5,8 +5,8 @@ b2h automatically appends a null terminator regardless of input. This will affec
 
 b2h supports files over 4gb, but it has to run on a 64-bit machine.
 ## Standalone Usage
-``c2d <file-in> <file-out.h>``
-Of which the resulting output file will produce an unsigned long (unsigned long long if over ULONG_MAX) identifierized-name_len length and an unsigned char array called identifierized-name (``path/to/file.txt`` -> ``path_to_file_txt_len`` & ``path_to_file_txt``).
+``c2d <file-in> <file-out.h>``<br>
+Whose output file produced contains an unsigned long (unsigned long long if over ULONG_MAX) identifierized-name_len length and an unsigned char array called identifierized-name (``path/to/file.txt`` -> ``path_to_file_txt_len`` & ``path_to_file_txt``).
 
 ## Embedding
 ```CPP
